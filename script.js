@@ -24,8 +24,8 @@ const teasing = [
   "hehe too slow 🐇",
   "can't catch me! 💨",
   "nope, try Yes 😜",
-  "stop it 🥺",
-  "just press Yes 💖",
+  "stooooooooop it ",
+  "just press Yes ",
 ];
 let escapes = 0;
 
@@ -92,7 +92,7 @@ noBtn.addEventListener("click", (e) => e.preventDefault());
 yesBtn.addEventListener("click", () => {
   card.classList.add("accepted");
   question.textContent = "Yaaay! 🎉 I knew it 💕";
-  sub.textContent = "welcome back, my cute bunny 🐰💗";
+  sub.textContent = "welcome back, cute bunny 🐰💗";
   bunny.textContent = "🥰";
   noBtn.style.display = "none";
 
